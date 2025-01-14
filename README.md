@@ -1,11 +1,11 @@
 # Custom-AI-Assistant-App
 Streamlit RAG-GenAI App
 
-Overview
+# Overview
 
 This project is a Streamlit-based application designed to integrate Retrieval-Augmented Generation (RAG) and Generative AI capabilities using AWS services. The application demonstrates the use of AI-powered text generation and retrieval systems for building a responsive and interactive web interface.
 
-Features
+# Features
 
 Retrieval-Augmented Generation (RAG): Combines information retrieval with generative AI models.
 
@@ -15,7 +15,7 @@ AWS Services: Includes AWS Bedrock and other relevant AWS services for model hos
 
 Dynamic Widgets: Interactive components like st.text_area, st.button, and others.
 
-Prerequisites
+# Prerequisites
 
 To run this project, ensure you have the following:
 
@@ -41,7 +41,7 @@ Configure your local machine:
 
 aws configure
 
-Setup Instructions
+# Setup Instructions
 
 Clone this repository:
 
@@ -51,7 +51,7 @@ Navigate to the project directory:
 
 cd RAG-GenAI-App/Streamlit_App
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 
@@ -61,7 +61,7 @@ Run the Streamlit app:
 
 streamlit run app.py
 
-Open the app in your browser:
+# Open the app in your browser:
 
 Local URL: http://localhost:8501
 
@@ -73,13 +73,15 @@ app.py: Main application file that runs the Streamlit app.
 
 requirements.txt: List of Python dependencies.
 
-Common Issues
+# Common Issues
 
 "Streamlit is not recognized"
 
 Ensure Streamlit is installed:
 
 pip install streamlit
+I had to use streamlit as a Module for it to work
+type this command: python -m streamlit run app.py
 
 Add Python and pip to your system's PATH.
 
