@@ -80,8 +80,9 @@ requirements.txt: List of Python dependencies.
 Ensure Streamlit is installed:
 
 pip install streamlit
-I had to use streamlit as a Module for it to work
-type this command: python -m streamlit run app.py
+
+- I had to use streamlit as a Module for it to work
+- type this command: python -m streamlit run app.py
 
 Add Python and pip to your system's PATH.
 
